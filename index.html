@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Mysterious Personal Website</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+            text-shadow: 2px 2px 5px #000;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 20px;
+            opacity: 0.8;
+        }
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #3700b3;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Rhee#dZal Realm</h1>
+    <p>Discover the secrets hidden within.</p>
+    <a href="#" onclick="document.getElementById('secret').classList.toggle('hidden');">Unveil the Mystery</a>
+    <div id="secret" class="hidden">
+        <p>Zero is where everything starts! Nothing would ever be born if we didn’t depart from there!...</p>
+    </div>
+</body>
+</html>
